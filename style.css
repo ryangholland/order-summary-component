@@ -1,0 +1,26 @@
+:root {
+  --clr-pri-pale-blue-hsl: 225, 100%, 94%;
+  --clr-bright-blue-hsl: 245, 75%, 52%;
+
+  --clr-neu-very-pale-blue-hsl: 225, 100%, 98%;
+  --clr-desaturated-blue-hsl: 224, 23%, 55%;
+  --clr-dark-blue-hsl: 223, 47%, 23%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
