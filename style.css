@@ -24,3 +24,73 @@ svg {
   display: block;
   max-width: 100%;
 }
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: hsl(var(--clr-pri-pale-blue-hsl));
+}
+
+.card-container {
+  max-width: 345px;
+  background-color: white;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.hero-img {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-content {
+  padding: 1.5rem 1.5rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: hsl(var(--clr-dark-blue-hsl));
+}
+
+p {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  color: hsl(var(--clr-desaturated-blue-hsl));
+}
+
+.plan-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.75rem;
+  border-radius: 1rem;
+  background-color: hsl(var(--clr-neu-very-pale-blue-hsl));
+}
+
+.name-price-container {
+  text-align: left;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+button {
+  padding: 0.75rem;
+  border-radius: 1rem;
+  background-color: hsl(var(--clr-bright-blue-hsl));
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 1rem 1rem hsla(var(--clr-bright-blue-hsl), 0.2);
+}
+
+.cancel-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+}
